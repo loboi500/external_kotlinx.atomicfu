@@ -1,10 +1,3 @@
-/*
- * Copyright 2017-2018 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license.
- */
-
-apply plugin: 'kotlinx-atomicfu'
-apply plugin: 'base'
-
-repositories {
-    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d364c847b2769d128b12f039dabdfa988728f448a0594ba7c6441e6296fff7fd
+size 258

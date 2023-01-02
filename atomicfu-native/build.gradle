@@ -1,7 +1,3 @@
-/*
- * Copyright 2017-2018 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license.
- */
-
-// this is a kludge so that existing YouTrack config works, todo: remove
-// Deploy configurations run :atomicfu-native:bintrayUpload
-task bintrayUpload(dependsOn: ':atomicfu:publish')
+version https://git-lfs.github.com/spec/v1
+oid sha256:27500ca14b2a67d6292cf8d42934332fc72fe6e449fe7e0e2e3b720538cb2094
+size 294

@@ -1,18 +1,3 @@
-/*
- * Copyright 2017-2018 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license.
- */
-
-apply plugin: 'kotlinx-atomicfu'
-apply plugin: 'kotlin2js'
-
-dependencies {
-    compileOnly atomicfuJs
-    testRuntime atomicfuJs
-
-    compile 'org.jetbrains.kotlin:kotlin-stdlib-js'
-    testCompile 'org.jetbrains.kotlin:kotlin-test-js'
-}
-
-compileTestKotlin2Js.doLast {
-    file("$buildDir/test_compile_classpath.txt").text = classpath.join("\n")
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf0c45aeea518ddded38e7f67fa9dccacf53fc2c73d1017f22b77e48afafd0aa
+size 458

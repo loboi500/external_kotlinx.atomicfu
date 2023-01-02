@@ -1,10 +1,3 @@
-# kotlinx.atomicfu 
-
-The idiomatic way to use atomic operations in [Kotlin/JS](https://kotlinlang.org/docs/reference/js-overview.html),
-so that the same code can be shared with Kotlin/JVM.
-
-```kotlin
-private val top = atomic<Node?>(null)
-```
-
-See [README](https://github.com/Kotlin/kotlinx.atomicfu/blob/master/README.md) for more details.
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb2121625768e1674feb97a3cf1d3ee5c518060ae5cca4aa679dc42078979661
+size 340

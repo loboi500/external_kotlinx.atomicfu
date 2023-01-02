@@ -1,21 +1,3 @@
-/*
- * Copyright 2017-2018 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license.
- */
-
-apply plugin: 'kotlin'
-
-apply from: rootProject.file('gradle/compile-options.gradle')
-
-ext.configureKotlin(org.jetbrains.kotlin.gradle.tasks.KotlinCompile)
-
-dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    compile "org.ow2.asm:asm:$asm_version"
-    compile "org.ow2.asm:asm-commons:$asm_version"
-    compile "org.ow2.asm:asm-tree:$asm_version"
-    compile "org.ow2.asm:asm-util:$asm_version"
-    compile "org.slf4j:slf4j-api:$slf4j_version"
-    runtime "org.slf4j:slf4j-simple:$slf4j_version"
-    compile "org.mozilla:rhino:1.7.10"
-    compile "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.1.0"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:39a84fd31edba291786d168bfb201c479ab6f139c6983e7b524abdc056b30d55
+size 742

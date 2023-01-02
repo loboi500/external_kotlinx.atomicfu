@@ -1,9 +1,3 @@
-enableFeaturePreview('GRADLE_METADATA')
-
-include 'atomicfu'
-
-include 'atomicfu-transformer'
-include 'atomicfu-gradle-plugin'
-include 'atomicfu-maven-plugin'
-
-include 'atomicfu-native' // this is a kludge so that existing YouTrack config works, todo: remove
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b961250ef35754135da2fd93c2edfa20a631bcb87b08124a731bc69834289f5
+size 256
